@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+ *    UCF  COP3330 Fall 2021 Assignment 1 Solution02
+ *    Copyright 2021 Sean Moore
+ */
+
 public class solution04 {
     /*
         Create an application that receives input words to form a MadLib-sentence,
