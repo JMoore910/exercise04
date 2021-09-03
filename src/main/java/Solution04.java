@@ -5,7 +5,7 @@ import java.util.Scanner;
  *    Copyright 2021 Sean Moore
  */
 
-public class solution04 {
+public class Solution04 {
     /*
         Create an application that receives input words to form a MadLib-sentence,
         take in noun
