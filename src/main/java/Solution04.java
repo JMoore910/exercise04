@@ -16,6 +16,8 @@ public class Solution04 {
         Output example: "Do you <verb> your <adjective> <noun> <adverb>?"
      */
     public static void main(String[] args) {
+        
+        //  Use a scanner for input to take in a noun, verb, adjective, and adverb
         Scanner input = new Scanner(System.in);
         String noun, verb, adj, adv;
         System.out.printf("Enter a noun: ");
@@ -27,12 +29,7 @@ public class Solution04 {
         System.out.printf("Enter an adverb: ");
         adv = input.nextLine();
 
+        //  Output the four strings together as a sentence using string concatenation
         System.out.printf("Do you %s your %s %s %s?",verb,adj,noun,adv);
     }
-
-
-
-
-
-
 }
